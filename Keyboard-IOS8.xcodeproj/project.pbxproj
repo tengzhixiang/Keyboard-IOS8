@@ -12,6 +12,71 @@
 		84D337A4199384040035B08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D337A2199384040035B08D /* Main.storyboard */; };
 		84D337A6199384040035B08D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D337A5199384040035B08D /* Images.xcassets */; };
 		84D337B2199384050035B08D /* Keyboard_IOS8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D337B1199384050035B08D /* Keyboard_IOS8Tests.swift */; };
+		84D337C619938CDE0035B08D /* PassGuardCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D337C519938CDE0035B08D /* PassGuardCtrl.swift */; };
+		84D3381019938DE90035B08D /* iPadInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D337CC19938DE90035B08D /* iPadInputView.xib */; };
+		84D3381119938DE90035B08D /* iPadNumberKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D337CD19938DE90035B08D /* iPadNumberKeyboardView.xib */; };
+		84D3381219938DE90035B08D /* iPadSpecialCharKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D337CE19938DE90035B08D /* iPadSpecialCharKeyboardView.xib */; };
+		84D3381319938DE90035B08D /* iPadStandardKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D337CF19938DE90035B08D /* iPadStandardKeyboardView.xib */; };
+		84D3381419938DE90035B08D /* iPhoneInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D337D119938DE90035B08D /* iPhoneInputView.xib */; };
+		84D3381519938DE90035B08D /* iPhoneNumberKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D337D219938DE90035B08D /* iPhoneNumberKeyboardView.xib */; };
+		84D3381619938DE90035B08D /* iPhonePureNumberKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D337D319938DE90035B08D /* iPhonePureNumberKeyboardView.xib */; };
+		84D3381719938DE90035B08D /* iPhoneSpecialCharKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D337D419938DE90035B08D /* iPhoneSpecialCharKeyboardView.xib */; };
+		84D3381819938DE90035B08D /* iPhoneStandardKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D337D519938DE90035B08D /* iPhoneStandardKeyboardView.xib */; };
+		84D3381919938DE90035B08D /* iPadCtrlBackground_down_Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337D819938DE90035B08D /* iPadCtrlBackground_down_Land.png */; };
+		84D3381A19938DE90035B08D /* iPadCtrlBackground_down_Land@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337D919938DE90035B08D /* iPadCtrlBackground_down_Land@2x.png */; };
+		84D3381B19938DE90035B08D /* iPadCtrlBackground_Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337DA19938DE90035B08D /* iPadCtrlBackground_Land.png */; };
+		84D3381C19938DE90035B08D /* iPadCtrlBackground_Land@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337DB19938DE90035B08D /* iPadCtrlBackground_Land@2x.png */; };
+		84D3381D19938DE90035B08D /* iPadDoneLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337DC19938DE90035B08D /* iPadDoneLandscape.png */; };
+		84D3381E19938DE90035B08D /* iPadDoneLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337DD19938DE90035B08D /* iPadDoneLandscape@2x.png */; };
+		84D3381F19938DE90035B08D /* iPadDoneLandscape_Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337DE19938DE90035B08D /* iPadDoneLandscape_Land.png */; };
+		84D3382019938DE90035B08D /* iPadDoneLandscape_Land@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337DF19938DE90035B08D /* iPadDoneLandscape_Land@2x.png */; };
+		84D3382119938DE90035B08D /* iPadKeyBackground_Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337E019938DE90035B08D /* iPadKeyBackground_Land.png */; };
+		84D3382219938DE90035B08D /* iPadKeyBackground_Land@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337E119938DE90035B08D /* iPadKeyBackground_Land@2x.png */; };
+		84D3382319938DE90035B08D /* iPadKeyBackground_Land_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337E219938DE90035B08D /* iPadKeyBackground_Land_down.png */; };
+		84D3382419938DE90035B08D /* iPadKeyBackground_Land_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337E319938DE90035B08D /* iPadKeyBackground_Land_down@2x.png */; };
+		84D3382519938DE90035B08D /* iPadKeyDeleteLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337E419938DE90035B08D /* iPadKeyDeleteLandscape.png */; };
+		84D3382619938DE90035B08D /* iPadKeyDeleteLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337E519938DE90035B08D /* iPadKeyDeleteLandscape@2x.png */; };
+		84D3382719938DE90035B08D /* iPadKeyDeleteLandscape_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337E619938DE90035B08D /* iPadKeyDeleteLandscape_down.png */; };
+		84D3382819938DE90035B08D /* iPadKeyDeleteLandscape_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337E719938DE90035B08D /* iPadKeyDeleteLandscape_down@2x.png */; };
+		84D3382919938DE90035B08D /* iPadKeyShiftLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337E819938DE90035B08D /* iPadKeyShiftLandscape.png */; };
+		84D3382A19938DE90035B08D /* iPadKeyShiftLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337E919938DE90035B08D /* iPadKeyShiftLandscape@2x.png */; };
+		84D3382B19938DE90035B08D /* iPadKeyShiftonceLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337EA19938DE90035B08D /* iPadKeyShiftonceLandscape.png */; };
+		84D3382C19938DE90035B08D /* iPadKeyShiftonceLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337EB19938DE90035B08D /* iPadKeyShiftonceLandscape@2x.png */; };
+		84D3382D19938DE90035B08D /* iPadKeyShiftretainLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337EC19938DE90035B08D /* iPadKeyShiftretainLandscape.png */; };
+		84D3382E19938DE90035B08D /* iPadKeyShiftretainLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337ED19938DE90035B08D /* iPadKeyShiftretainLandscape@2x.png */; };
+		84D3382F19938DE90035B08D /* iPadKeySpaceLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337EE19938DE90035B08D /* iPadKeySpaceLandscape.png */; };
+		84D3383019938DE90035B08D /* iPadKeySpaceLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337EF19938DE90035B08D /* iPadKeySpaceLandscape@2x.png */; };
+		84D3383119938DE90035B08D /* iPadKeySpaceLandscape_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337F019938DE90035B08D /* iPadKeySpaceLandscape_down.png */; };
+		84D3383219938DE90035B08D /* iPadKeySpaceLandscape_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337F119938DE90035B08D /* iPadKeySpaceLandscape_down@2x.png */; };
+		84D3383319938DE90035B08D /* iPadZFBackground_Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337F219938DE90035B08D /* iPadZFBackground_Land.png */; };
+		84D3383419938DE90035B08D /* iPadZFBackground_Land@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337F319938DE90035B08D /* iPadZFBackground_Land@2x.png */; };
+		84D3383519938DE90035B08D /* iPadZFBackground_Land_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337F419938DE90035B08D /* iPadZFBackground_Land_Down.png */; };
+		84D3383619938DE90035B08D /* iPadZFBackground_Land_Down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337F519938DE90035B08D /* iPadZFBackground_Land_Down@2x.png */; };
+		84D3383719938DE90035B08D /* iPhoneCtrlBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337F719938DE90035B08D /* iPhoneCtrlBackground.png */; };
+		84D3383819938DE90035B08D /* iPhoneCtrlBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337F819938DE90035B08D /* iPhoneCtrlBackground@2x.png */; };
+		84D3383919938DE90035B08D /* iPhoneDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337F919938DE90035B08D /* iPhoneDelete.png */; };
+		84D3383A19938DE90035B08D /* iPhoneDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337FA19938DE90035B08D /* iPhoneDelete@2x.png */; };
+		84D3383B19938DE90035B08D /* iPhoneDelete按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337FB19938DE90035B08D /* iPhoneDelete按下.png */; };
+		84D3383C19938DE90035B08D /* iPhoneDelete按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337FC19938DE90035B08D /* iPhoneDelete按下@2x.png */; };
+		84D3383D19938DE90035B08D /* iPhoneDelete键按下的.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337FD19938DE90035B08D /* iPhoneDelete键按下的.png */; };
+		84D3383E19938DE90035B08D /* iPhoneDelete键按下的@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337FE19938DE90035B08D /* iPhoneDelete键按下的@2x.png */; };
+		84D3383F19938DE90035B08D /* iPhoneDone.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D337FF19938DE90035B08D /* iPhoneDone.png */; };
+		84D3384019938DE90035B08D /* iPhoneDone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380019938DE90035B08D /* iPhoneDone@2x.png */; };
+		84D3384119938DE90035B08D /* iPhoneKeyBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380119938DE90035B08D /* iPhoneKeyBackground.png */; };
+		84D3384219938DE90035B08D /* iPhoneKeyBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380219938DE90035B08D /* iPhoneKeyBackground@2x.png */; };
+		84D3384319938DE90035B08D /* iPhoneShift.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380319938DE90035B08D /* iPhoneShift.png */; };
+		84D3384419938DE90035B08D /* iPhoneShift@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380419938DE90035B08D /* iPhoneShift@2x.png */; };
+		84D3384519938DE90035B08D /* iPhoneShiftonce.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380519938DE90035B08D /* iPhoneShiftonce.png */; };
+		84D3384619938DE90035B08D /* iPhoneShiftonce@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380619938DE90035B08D /* iPhoneShiftonce@2x.png */; };
+		84D3384719938DE90035B08D /* iPhoneShiftretain.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380719938DE90035B08D /* iPhoneShiftretain.png */; };
+		84D3384819938DE90035B08D /* iPhoneShiftretain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380819938DE90035B08D /* iPhoneShiftretain@2x.png */; };
+		84D3384919938DE90035B08D /* iPhoneSpace.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380919938DE90035B08D /* iPhoneSpace.png */; };
+		84D3384A19938DE90035B08D /* iPhoneSpace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380A19938DE90035B08D /* iPhoneSpace@2x.png */; };
+		84D3384B19938DE90035B08D /* kb_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380B19938DE90035B08D /* kb_bg.png */; };
+		84D3384C19938DE90035B08D /* 切换键背景按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380C19938DE90035B08D /* 切换键背景按下.png */; };
+		84D3384D19938DE90035B08D /* 切换键背景按下2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380D19938DE90035B08D /* 切换键背景按下2x.png */; };
+		84D3384E19938DE90035B08D /* 空格按下_03_nologo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380E19938DE90035B08D /* 空格按下_03_nologo.png */; };
+		84D3384F19938DE90035B08D /* 空格按下_03_nologo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D3380F19938DE90035B08D /* 空格按下_03_nologo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +99,71 @@
 		84D337AB199384050035B08D /* Keyboard-IOS8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyboard-IOS8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D337B0199384050035B08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D337B1199384050035B08D /* Keyboard_IOS8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard_IOS8Tests.swift; sourceTree = "<group>"; };
+		84D337C519938CDE0035B08D /* PassGuardCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassGuardCtrl.swift; sourceTree = "<group>"; };
+		84D337CC19938DE90035B08D /* iPadInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadInputView.xib; sourceTree = "<group>"; };
+		84D337CD19938DE90035B08D /* iPadNumberKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadNumberKeyboardView.xib; sourceTree = "<group>"; };
+		84D337CE19938DE90035B08D /* iPadSpecialCharKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadSpecialCharKeyboardView.xib; sourceTree = "<group>"; };
+		84D337CF19938DE90035B08D /* iPadStandardKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadStandardKeyboardView.xib; sourceTree = "<group>"; };
+		84D337D119938DE90035B08D /* iPhoneInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhoneInputView.xib; sourceTree = "<group>"; };
+		84D337D219938DE90035B08D /* iPhoneNumberKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhoneNumberKeyboardView.xib; sourceTree = "<group>"; };
+		84D337D319938DE90035B08D /* iPhonePureNumberKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhonePureNumberKeyboardView.xib; sourceTree = "<group>"; };
+		84D337D419938DE90035B08D /* iPhoneSpecialCharKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhoneSpecialCharKeyboardView.xib; sourceTree = "<group>"; };
+		84D337D519938DE90035B08D /* iPhoneStandardKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhoneStandardKeyboardView.xib; sourceTree = "<group>"; };
+		84D337D819938DE90035B08D /* iPadCtrlBackground_down_Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadCtrlBackground_down_Land.png; sourceTree = "<group>"; };
+		84D337D919938DE90035B08D /* iPadCtrlBackground_down_Land@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadCtrlBackground_down_Land@2x.png"; sourceTree = "<group>"; };
+		84D337DA19938DE90035B08D /* iPadCtrlBackground_Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadCtrlBackground_Land.png; sourceTree = "<group>"; };
+		84D337DB19938DE90035B08D /* iPadCtrlBackground_Land@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadCtrlBackground_Land@2x.png"; sourceTree = "<group>"; };
+		84D337DC19938DE90035B08D /* iPadDoneLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadDoneLandscape.png; sourceTree = "<group>"; };
+		84D337DD19938DE90035B08D /* iPadDoneLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadDoneLandscape@2x.png"; sourceTree = "<group>"; };
+		84D337DE19938DE90035B08D /* iPadDoneLandscape_Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadDoneLandscape_Land.png; sourceTree = "<group>"; };
+		84D337DF19938DE90035B08D /* iPadDoneLandscape_Land@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadDoneLandscape_Land@2x.png"; sourceTree = "<group>"; };
+		84D337E019938DE90035B08D /* iPadKeyBackground_Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadKeyBackground_Land.png; sourceTree = "<group>"; };
+		84D337E119938DE90035B08D /* iPadKeyBackground_Land@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadKeyBackground_Land@2x.png"; sourceTree = "<group>"; };
+		84D337E219938DE90035B08D /* iPadKeyBackground_Land_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadKeyBackground_Land_down.png; sourceTree = "<group>"; };
+		84D337E319938DE90035B08D /* iPadKeyBackground_Land_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadKeyBackground_Land_down@2x.png"; sourceTree = "<group>"; };
+		84D337E419938DE90035B08D /* iPadKeyDeleteLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadKeyDeleteLandscape.png; sourceTree = "<group>"; };
+		84D337E519938DE90035B08D /* iPadKeyDeleteLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadKeyDeleteLandscape@2x.png"; sourceTree = "<group>"; };
+		84D337E619938DE90035B08D /* iPadKeyDeleteLandscape_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadKeyDeleteLandscape_down.png; sourceTree = "<group>"; };
+		84D337E719938DE90035B08D /* iPadKeyDeleteLandscape_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadKeyDeleteLandscape_down@2x.png"; sourceTree = "<group>"; };
+		84D337E819938DE90035B08D /* iPadKeyShiftLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadKeyShiftLandscape.png; sourceTree = "<group>"; };
+		84D337E919938DE90035B08D /* iPadKeyShiftLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadKeyShiftLandscape@2x.png"; sourceTree = "<group>"; };
+		84D337EA19938DE90035B08D /* iPadKeyShiftonceLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadKeyShiftonceLandscape.png; sourceTree = "<group>"; };
+		84D337EB19938DE90035B08D /* iPadKeyShiftonceLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadKeyShiftonceLandscape@2x.png"; sourceTree = "<group>"; };
+		84D337EC19938DE90035B08D /* iPadKeyShiftretainLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadKeyShiftretainLandscape.png; sourceTree = "<group>"; };
+		84D337ED19938DE90035B08D /* iPadKeyShiftretainLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadKeyShiftretainLandscape@2x.png"; sourceTree = "<group>"; };
+		84D337EE19938DE90035B08D /* iPadKeySpaceLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadKeySpaceLandscape.png; sourceTree = "<group>"; };
+		84D337EF19938DE90035B08D /* iPadKeySpaceLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadKeySpaceLandscape@2x.png"; sourceTree = "<group>"; };
+		84D337F019938DE90035B08D /* iPadKeySpaceLandscape_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadKeySpaceLandscape_down.png; sourceTree = "<group>"; };
+		84D337F119938DE90035B08D /* iPadKeySpaceLandscape_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadKeySpaceLandscape_down@2x.png"; sourceTree = "<group>"; };
+		84D337F219938DE90035B08D /* iPadZFBackground_Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadZFBackground_Land.png; sourceTree = "<group>"; };
+		84D337F319938DE90035B08D /* iPadZFBackground_Land@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadZFBackground_Land@2x.png"; sourceTree = "<group>"; };
+		84D337F419938DE90035B08D /* iPadZFBackground_Land_Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadZFBackground_Land_Down.png; sourceTree = "<group>"; };
+		84D337F519938DE90035B08D /* iPadZFBackground_Land_Down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadZFBackground_Land_Down@2x.png"; sourceTree = "<group>"; };
+		84D337F719938DE90035B08D /* iPhoneCtrlBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneCtrlBackground.png; sourceTree = "<group>"; };
+		84D337F819938DE90035B08D /* iPhoneCtrlBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneCtrlBackground@2x.png"; sourceTree = "<group>"; };
+		84D337F919938DE90035B08D /* iPhoneDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneDelete.png; sourceTree = "<group>"; };
+		84D337FA19938DE90035B08D /* iPhoneDelete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneDelete@2x.png"; sourceTree = "<group>"; };
+		84D337FB19938DE90035B08D /* iPhoneDelete按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneDelete按下.png"; sourceTree = "<group>"; };
+		84D337FC19938DE90035B08D /* iPhoneDelete按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneDelete按下@2x.png"; sourceTree = "<group>"; };
+		84D337FD19938DE90035B08D /* iPhoneDelete键按下的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneDelete键按下的.png"; sourceTree = "<group>"; };
+		84D337FE19938DE90035B08D /* iPhoneDelete键按下的@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneDelete键按下的@2x.png"; sourceTree = "<group>"; };
+		84D337FF19938DE90035B08D /* iPhoneDone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneDone.png; sourceTree = "<group>"; };
+		84D3380019938DE90035B08D /* iPhoneDone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneDone@2x.png"; sourceTree = "<group>"; };
+		84D3380119938DE90035B08D /* iPhoneKeyBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneKeyBackground.png; sourceTree = "<group>"; };
+		84D3380219938DE90035B08D /* iPhoneKeyBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneKeyBackground@2x.png"; sourceTree = "<group>"; };
+		84D3380319938DE90035B08D /* iPhoneShift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneShift.png; sourceTree = "<group>"; };
+		84D3380419938DE90035B08D /* iPhoneShift@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneShift@2x.png"; sourceTree = "<group>"; };
+		84D3380519938DE90035B08D /* iPhoneShiftonce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneShiftonce.png; sourceTree = "<group>"; };
+		84D3380619938DE90035B08D /* iPhoneShiftonce@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneShiftonce@2x.png"; sourceTree = "<group>"; };
+		84D3380719938DE90035B08D /* iPhoneShiftretain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneShiftretain.png; sourceTree = "<group>"; };
+		84D3380819938DE90035B08D /* iPhoneShiftretain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneShiftretain@2x.png"; sourceTree = "<group>"; };
+		84D3380919938DE90035B08D /* iPhoneSpace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneSpace.png; sourceTree = "<group>"; };
+		84D3380A19938DE90035B08D /* iPhoneSpace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneSpace@2x.png"; sourceTree = "<group>"; };
+		84D3380B19938DE90035B08D /* kb_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kb_bg.png; sourceTree = "<group>"; };
+		84D3380C19938DE90035B08D /* 切换键背景按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "切换键背景按下.png"; sourceTree = "<group>"; };
+		84D3380D19938DE90035B08D /* 切换键背景按下2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "切换键背景按下2x.png"; sourceTree = "<group>"; };
+		84D3380E19938DE90035B08D /* 空格按下_03_nologo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "空格按下_03_nologo.png"; sourceTree = "<group>"; };
+		84D3380F19938DE90035B08D /* 空格按下_03_nologo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "空格按下_03_nologo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +205,7 @@
 		84D3379B199384040035B08D /* Keyboard-IOS8 */ = {
 			isa = PBXGroup;
 			children = (
+				84D337BB1993874B0035B08D /* PassGuard */,
 				84D3379E199384040035B08D /* AppDelegate.swift */,
 				84D337A0199384040035B08D /* ViewController.swift */,
 				84D337A2199384040035B08D /* Main.storyboard */,
@@ -107,6 +238,126 @@
 				84D337B0199384050035B08D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D337BB1993874B0035B08D /* PassGuard */ = {
+			isa = PBXGroup;
+			children = (
+				84D337CA19938DE90035B08D /* kb */,
+				84D337D619938DE90035B08D /* keyspng */,
+				84D337C519938CDE0035B08D /* PassGuardCtrl.swift */,
+			);
+			path = PassGuard;
+			sourceTree = SOURCE_ROOT;
+		};
+		84D337CA19938DE90035B08D /* kb */ = {
+			isa = PBXGroup;
+			children = (
+				84D337CB19938DE90035B08D /* ipad */,
+				84D337D019938DE90035B08D /* iphone */,
+			);
+			path = kb;
+			sourceTree = "<group>";
+		};
+		84D337CB19938DE90035B08D /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				84D337CC19938DE90035B08D /* iPadInputView.xib */,
+				84D337CD19938DE90035B08D /* iPadNumberKeyboardView.xib */,
+				84D337CE19938DE90035B08D /* iPadSpecialCharKeyboardView.xib */,
+				84D337CF19938DE90035B08D /* iPadStandardKeyboardView.xib */,
+			);
+			path = ipad;
+			sourceTree = "<group>";
+		};
+		84D337D019938DE90035B08D /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				84D337D119938DE90035B08D /* iPhoneInputView.xib */,
+				84D337D219938DE90035B08D /* iPhoneNumberKeyboardView.xib */,
+				84D337D319938DE90035B08D /* iPhonePureNumberKeyboardView.xib */,
+				84D337D419938DE90035B08D /* iPhoneSpecialCharKeyboardView.xib */,
+				84D337D519938DE90035B08D /* iPhoneStandardKeyboardView.xib */,
+			);
+			path = iphone;
+			sourceTree = "<group>";
+		};
+		84D337D619938DE90035B08D /* keyspng */ = {
+			isa = PBXGroup;
+			children = (
+				84D337D719938DE90035B08D /* ipad */,
+				84D337F619938DE90035B08D /* iphone */,
+			);
+			path = keyspng;
+			sourceTree = "<group>";
+		};
+		84D337D719938DE90035B08D /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				84D337D819938DE90035B08D /* iPadCtrlBackground_down_Land.png */,
+				84D337D919938DE90035B08D /* iPadCtrlBackground_down_Land@2x.png */,
+				84D337DA19938DE90035B08D /* iPadCtrlBackground_Land.png */,
+				84D337DB19938DE90035B08D /* iPadCtrlBackground_Land@2x.png */,
+				84D337DC19938DE90035B08D /* iPadDoneLandscape.png */,
+				84D337DD19938DE90035B08D /* iPadDoneLandscape@2x.png */,
+				84D337DE19938DE90035B08D /* iPadDoneLandscape_Land.png */,
+				84D337DF19938DE90035B08D /* iPadDoneLandscape_Land@2x.png */,
+				84D337E019938DE90035B08D /* iPadKeyBackground_Land.png */,
+				84D337E119938DE90035B08D /* iPadKeyBackground_Land@2x.png */,
+				84D337E219938DE90035B08D /* iPadKeyBackground_Land_down.png */,
+				84D337E319938DE90035B08D /* iPadKeyBackground_Land_down@2x.png */,
+				84D337E419938DE90035B08D /* iPadKeyDeleteLandscape.png */,
+				84D337E519938DE90035B08D /* iPadKeyDeleteLandscape@2x.png */,
+				84D337E619938DE90035B08D /* iPadKeyDeleteLandscape_down.png */,
+				84D337E719938DE90035B08D /* iPadKeyDeleteLandscape_down@2x.png */,
+				84D337E819938DE90035B08D /* iPadKeyShiftLandscape.png */,
+				84D337E919938DE90035B08D /* iPadKeyShiftLandscape@2x.png */,
+				84D337EA19938DE90035B08D /* iPadKeyShiftonceLandscape.png */,
+				84D337EB19938DE90035B08D /* iPadKeyShiftonceLandscape@2x.png */,
+				84D337EC19938DE90035B08D /* iPadKeyShiftretainLandscape.png */,
+				84D337ED19938DE90035B08D /* iPadKeyShiftretainLandscape@2x.png */,
+				84D337EE19938DE90035B08D /* iPadKeySpaceLandscape.png */,
+				84D337EF19938DE90035B08D /* iPadKeySpaceLandscape@2x.png */,
+				84D337F019938DE90035B08D /* iPadKeySpaceLandscape_down.png */,
+				84D337F119938DE90035B08D /* iPadKeySpaceLandscape_down@2x.png */,
+				84D337F219938DE90035B08D /* iPadZFBackground_Land.png */,
+				84D337F319938DE90035B08D /* iPadZFBackground_Land@2x.png */,
+				84D337F419938DE90035B08D /* iPadZFBackground_Land_Down.png */,
+				84D337F519938DE90035B08D /* iPadZFBackground_Land_Down@2x.png */,
+			);
+			path = ipad;
+			sourceTree = "<group>";
+		};
+		84D337F619938DE90035B08D /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				84D337F719938DE90035B08D /* iPhoneCtrlBackground.png */,
+				84D337F819938DE90035B08D /* iPhoneCtrlBackground@2x.png */,
+				84D337F919938DE90035B08D /* iPhoneDelete.png */,
+				84D337FA19938DE90035B08D /* iPhoneDelete@2x.png */,
+				84D337FB19938DE90035B08D /* iPhoneDelete按下.png */,
+				84D337FC19938DE90035B08D /* iPhoneDelete按下@2x.png */,
+				84D337FD19938DE90035B08D /* iPhoneDelete键按下的.png */,
+				84D337FE19938DE90035B08D /* iPhoneDelete键按下的@2x.png */,
+				84D337FF19938DE90035B08D /* iPhoneDone.png */,
+				84D3380019938DE90035B08D /* iPhoneDone@2x.png */,
+				84D3380119938DE90035B08D /* iPhoneKeyBackground.png */,
+				84D3380219938DE90035B08D /* iPhoneKeyBackground@2x.png */,
+				84D3380319938DE90035B08D /* iPhoneShift.png */,
+				84D3380419938DE90035B08D /* iPhoneShift@2x.png */,
+				84D3380519938DE90035B08D /* iPhoneShiftonce.png */,
+				84D3380619938DE90035B08D /* iPhoneShiftonce@2x.png */,
+				84D3380719938DE90035B08D /* iPhoneShiftretain.png */,
+				84D3380819938DE90035B08D /* iPhoneShiftretain@2x.png */,
+				84D3380919938DE90035B08D /* iPhoneSpace.png */,
+				84D3380A19938DE90035B08D /* iPhoneSpace@2x.png */,
+				84D3380B19938DE90035B08D /* kb_bg.png */,
+				84D3380C19938DE90035B08D /* 切换键背景按下.png */,
+				84D3380D19938DE90035B08D /* 切换键背景按下2x.png */,
+				84D3380E19938DE90035B08D /* 空格按下_03_nologo.png */,
+				84D3380F19938DE90035B08D /* 空格按下_03_nologo@2x.png */,
+			);
+			path = iphone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +440,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D3381419938DE90035B08D /* iPhoneInputView.xib in Resources */,
+				84D3383A19938DE90035B08D /* iPhoneDelete@2x.png in Resources */,
 				84D337A4199384040035B08D /* Main.storyboard in Resources */,
+				84D3384F19938DE90035B08D /* 空格按下_03_nologo@2x.png in Resources */,
+				84D3382119938DE90035B08D /* iPadKeyBackground_Land.png in Resources */,
+				84D3382819938DE90035B08D /* iPadKeyDeleteLandscape_down@2x.png in Resources */,
+				84D3383319938DE90035B08D /* iPadZFBackground_Land.png in Resources */,
+				84D3384E19938DE90035B08D /* 空格按下_03_nologo.png in Resources */,
+				84D3381919938DE90035B08D /* iPadCtrlBackground_down_Land.png in Resources */,
+				84D3382D19938DE90035B08D /* iPadKeyShiftretainLandscape.png in Resources */,
+				84D3381819938DE90035B08D /* iPhoneStandardKeyboardView.xib in Resources */,
+				84D3381F19938DE90035B08D /* iPadDoneLandscape_Land.png in Resources */,
+				84D3384119938DE90035B08D /* iPhoneKeyBackground.png in Resources */,
+				84D3381019938DE90035B08D /* iPadInputView.xib in Resources */,
+				84D3382919938DE90035B08D /* iPadKeyShiftLandscape.png in Resources */,
+				84D3382419938DE90035B08D /* iPadKeyBackground_Land_down@2x.png in Resources */,
+				84D3384A19938DE90035B08D /* iPhoneSpace@2x.png in Resources */,
+				84D3383519938DE90035B08D /* iPadZFBackground_Land_Down.png in Resources */,
+				84D3384D19938DE90035B08D /* 切换键背景按下2x.png in Resources */,
+				84D3384319938DE90035B08D /* iPhoneShift.png in Resources */,
+				84D3382619938DE90035B08D /* iPadKeyDeleteLandscape@2x.png in Resources */,
+				84D3381B19938DE90035B08D /* iPadCtrlBackground_Land.png in Resources */,
+				84D3382E19938DE90035B08D /* iPadKeyShiftretainLandscape@2x.png in Resources */,
+				84D3382319938DE90035B08D /* iPadKeyBackground_Land_down.png in Resources */,
+				84D3382B19938DE90035B08D /* iPadKeyShiftonceLandscape.png in Resources */,
+				84D3381319938DE90035B08D /* iPadStandardKeyboardView.xib in Resources */,
+				84D3381D19938DE90035B08D /* iPadDoneLandscape.png in Resources */,
+				84D3381719938DE90035B08D /* iPhoneSpecialCharKeyboardView.xib in Resources */,
+				84D3384019938DE90035B08D /* iPhoneDone@2x.png in Resources */,
+				84D3383819938DE90035B08D /* iPhoneCtrlBackground@2x.png in Resources */,
+				84D3381619938DE90035B08D /* iPhonePureNumberKeyboardView.xib in Resources */,
+				84D3381219938DE90035B08D /* iPadSpecialCharKeyboardView.xib in Resources */,
+				84D3381C19938DE90035B08D /* iPadCtrlBackground_Land@2x.png in Resources */,
+				84D3383619938DE90035B08D /* iPadZFBackground_Land_Down@2x.png in Resources */,
+				84D3381A19938DE90035B08D /* iPadCtrlBackground_down_Land@2x.png in Resources */,
+				84D3383219938DE90035B08D /* iPadKeySpaceLandscape_down@2x.png in Resources */,
+				84D3384B19938DE90035B08D /* kb_bg.png in Resources */,
+				84D3382019938DE90035B08D /* iPadDoneLandscape_Land@2x.png in Resources */,
+				84D3382C19938DE90035B08D /* iPadKeyShiftonceLandscape@2x.png in Resources */,
+				84D3383E19938DE90035B08D /* iPhoneDelete键按下的@2x.png in Resources */,
+				84D3383F19938DE90035B08D /* iPhoneDone.png in Resources */,
+				84D3384519938DE90035B08D /* iPhoneShiftonce.png in Resources */,
+				84D3383719938DE90035B08D /* iPhoneCtrlBackground.png in Resources */,
+				84D3382519938DE90035B08D /* iPadKeyDeleteLandscape.png in Resources */,
+				84D3383C19938DE90035B08D /* iPhoneDelete按下@2x.png in Resources */,
+				84D3384619938DE90035B08D /* iPhoneShiftonce@2x.png in Resources */,
+				84D3382F19938DE90035B08D /* iPadKeySpaceLandscape.png in Resources */,
+				84D3383D19938DE90035B08D /* iPhoneDelete键按下的.png in Resources */,
+				84D3383919938DE90035B08D /* iPhoneDelete.png in Resources */,
+				84D3384719938DE90035B08D /* iPhoneShiftretain.png in Resources */,
+				84D3383019938DE90035B08D /* iPadKeySpaceLandscape@2x.png in Resources */,
+				84D3384219938DE90035B08D /* iPhoneKeyBackground@2x.png in Resources */,
+				84D3382A19938DE90035B08D /* iPadKeyShiftLandscape@2x.png in Resources */,
+				84D3382719938DE90035B08D /* iPadKeyDeleteLandscape_down.png in Resources */,
+				84D3384419938DE90035B08D /* iPhoneShift@2x.png in Resources */,
+				84D3382219938DE90035B08D /* iPadKeyBackground_Land@2x.png in Resources */,
+				84D3383B19938DE90035B08D /* iPhoneDelete按下.png in Resources */,
+				84D3381519938DE90035B08D /* iPhoneNumberKeyboardView.xib in Resources */,
+				84D3381119938DE90035B08D /* iPadNumberKeyboardView.xib in Resources */,
 				84D337A6199384040035B08D /* Images.xcassets in Resources */,
+				84D3383419938DE90035B08D /* iPadZFBackground_Land@2x.png in Resources */,
+				84D3384819938DE90035B08D /* iPhoneShiftretain@2x.png in Resources */,
+				84D3384919938DE90035B08D /* iPhoneSpace.png in Resources */,
+				84D3384C19938DE90035B08D /* 切换键背景按下.png in Resources */,
+				84D3383119938DE90035B08D /* iPadKeySpaceLandscape_down.png in Resources */,
+				84D3381E19938DE90035B08D /* iPadDoneLandscape@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +524,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D337A1199384040035B08D /* ViewController.swift in Sources */,
+				84D337C619938CDE0035B08D /* PassGuardCtrl.swift in Sources */,
 				84D3379F199384040035B08D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +713,7 @@
 				84D337B7199384050035B08D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D337B8199384050035B08D /* Build configuration list for PBXNativeTarget "Keyboard-IOS8Tests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +722,7 @@
 				84D337BA199384050035B08D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
